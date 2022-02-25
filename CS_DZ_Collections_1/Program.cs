@@ -25,11 +25,12 @@ namespace CS_DZ_Collections_1
 
                 if (carsBrandsCountries.ContainsKey(userInput))
                     Console.WriteLine(carsBrandsCountries[userInput]);
-                else
-                    Console.WriteLine("Этого нет в словаре");
 
                 if (userInput == "exit")
                     canExit = true;
+                
+                else
+                    Console.WriteLine("Этого нет в словаре");
             }
         }
     }
